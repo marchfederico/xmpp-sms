@@ -1,0 +1,21 @@
+{
+  "name": "xmpp-sms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "xmpp-app.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "google-libphonenumber": "^1.0.7",
+    "node-xmpp-client": "^3.0.0",
+    "request": "^2.65.0",
+    "tropo-webapi": "^1.2.0",
+    "winston": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

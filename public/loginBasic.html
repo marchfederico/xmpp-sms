@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+<h1>Jabber <--> SMS Demo</h1>
+<form name="htmlform" method="post" action="/login">
+<table width="450px">
+</tr>
+<tr>
+ <td valign="top">
+  <label for="jid" >Jabber JID</label>
+ </td>
+ <td valign="top">
+ 	<input type="email" class="form-control" id="jid" name="jid" placeholder="cecid@cisco.com">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="password">Password</label>
+ </td>
+ <td valign="top">
+ <input type="password" class="form-control" id="password" name="password" placeholder="Webex Messenger Password">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="mobileNumber">Mobile Number</label>
+ </td>
+ <td valign="top">
+  <input  type="number" class="form-control" name="mobileNumber" id="mobileNumber" placeholder="12065551212">
+ </td>
+</tr>
+
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Login">     
+ </td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
